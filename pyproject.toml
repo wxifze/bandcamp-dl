@@ -26,7 +26,8 @@ dependencies = [
     "requests >= 2.32.3",
     "unicode-slugify >= 0.1.5",
     "urllib3 >= 2.2.2",
-    "toml ; python_version < '3.11'"
+    "toml ; python_version < '3.11'",
+    "requests-ratelimiter >= 0.7.0",
 ]
 
 license = {text = "Unlicense"}
